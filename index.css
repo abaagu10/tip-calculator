@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(68, 14, 14);
+}
+.container{
+    width: 400px;
+    margin: 50px auto 50px auto;
+    border: 3px solid black;
+    text-align: center;
+    height: 500px;
+    background: #fff;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container .header{
+    background-color: black;
+    color: white;
+    margin-top: 0;
+}
+hr{
+    margin-top: 10px;
+}
+input, p, select, label, form, footer{
+    background: #fff;
+    color: black;
+}
+select option{
+    background-color: #fff;
+    color: black;
+}
+input{
+    font-weight: bold;
+    outline: none;
+}
+footer small{
+    background: white;
+    color: black;
+}
+#calculate{
+    background-color: rgb(175, 23, 23);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+#submit{
+    background-color: rgb(175, 23, 23);
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 30px;
+}
